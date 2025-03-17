@@ -6,8 +6,8 @@ nav: false
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
+> The truth is that even big collections of ordinary books distort space, as can readily be proved by anyone who has been around a really old-fashioned secondhand bookshop, one that looks as though they were designed by M. Escher on a bad day and has more stairways than storeys and those rows of shelves which end in little doors that are surely too small for a full-sized human to enter. The relevant equation is: Knowledge = power = energy = matter = mass; a good bookshop is just a genteel Black Hole that knows how to read.”
 >
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> ― Terry Pratchett, Guards! Guards! 
 
 ## Books that I am reading, have read, or will read
