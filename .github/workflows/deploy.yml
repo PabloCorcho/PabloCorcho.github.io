@@ -26,19 +26,13 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          ruby-version: "3.3.5"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.13"
           cache: "pip" # caching pip dependencies
-
-      - name: Setup Node.js 🟢
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"  # stable LTS
-
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -46,24 +40,16 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
-      - name: Install Python dependencies
-        run: pip3 install --upgrade nbconvert
-
-      - name: Build site
+      - name: Install and Build 🔧
         run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
-
-      - name: Install npm dependencies
-        run: npm install
-
       - name: Purge unused CSS 🧹
-        run: npx purgecss -c purgecss.config.js
-
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
