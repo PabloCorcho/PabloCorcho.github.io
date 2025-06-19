@@ -28,27 +28,29 @@ latest_posts:
 ---
 
 > 
-### ¡Hola! I am an early career researcher with a strong passion for the Universe and everything that lives in it.
+### ¡Hola! I'm an early-career researcher driven by a deep passion for the Universe and all forms of life within it.
 
-My **research** is mainly focused on **extragalactic astrophysics**. I study **star formation** in galaxies, and the **physical processes** that drive the **build-up** of their **stellar content**. Among my favourite subjects, I enjoy
-studying what is referred to as galaxy **quenching**: the abrupt **cessation of star formation** due to the action of some mechanisms that prevent the conversion of gas into stars.
+My **research** focuses on **extragalactic astrophysics**. I study **star formation** in galaxies and the **physical mechanisms** that drive the **build-up of their stellar content**.
 
-> Constraining the physics behing galaxy **quenching is key** for understanding the **formation of galaxies** across the **history of the Universe**.
+Among the topics I find most fascinating, I enjoy studying **galaxy quenching** -- the sudden **cessation of star formation** caused by mechanisms that prevent gas from turning into stars.
 
-To answer these questions, I work with both **ground-** and **space-based telescopes** across **multiple regimes** of the electromagnetic **spectrum**.
+> Understanding the **physics behind galaxy quenching** is essential for unraveling the story of **galaxy formation** across the history of the Universe.
+
+To explore these questions, I use data from both **ground-based** and **space-based telescopes**, working across **multiple wavelength regimes** of the electromagnetic spectrum.
+
 
 {% include figure.liquid loading="eager" path="assets/img/Euclid_key_visual.png" class="img-fluid rounded z-depth-1" width="100%" max-width="600px" alt="Euclid telescope" %}
 
-I am a member of the [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid) mission. In particular, I perform the quality control of the ground-based data that is used to complement the observations from space.
+I am a member of the [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid) mission, a space telescope launched by the **European Space Agency**. My role involves **quality control** of ground-based data, which complements the observations made from space.
 
+My favourite observing technique is **Integral Field Spectroscopy** (IFS). This powerful method uses spectrographs fed by Integral Field Units (IFUs) to capture both **spatial and spectral information** simultaneously -- allowing us to dissect galaxies in unprecedented detail.
 
-However, my favourite observing technique is the so-called **Integral Field Spectroscopy** (IFS), which uses state-of-the-art spectrographs fed by one or seveal Integral Field Units (IFUs), providing both spatial and spectroscopic information simultaneously. I am a member of several **on-going surveys** whose aim is to gain unprecedented insights about the evolution galaxies through the use of cutting-edge instrumentation:
+I am involved in several ongoing IFS surveys designed to provide new insights into galaxy evolution using cutting-edge technology:
 
-- [WEAVE](https://weave-project.atlassian.net/wiki/spaces/WEAVE/overview).
+- [WEAVE](https://weave-project.atlassian.net/wiki/spaces/WEAVE/overview)
 - [Hector](https://hector.survey.org.au)
 
-I am the main **developer** of [PyKOALA](https://pykoala.readthedocs.io/en/latest/index.html), a python library for IFS data reduction and the main tool for the [KOALA](https://aat.anu.edu.au/science/instruments/current/koala/overview) instrument.
-
+I am the main **developer** of [PyKOALA](https://pykoala.readthedocs.io/en/latest/index.html), a python library for IFS data reduction. PyKOALA is the primary tool used for data from the [KOALA](https://aat.anu.edu.au/science/instruments/current/koala/overview) instrument on the Anglo-Australian Telescope.
 
 
 
