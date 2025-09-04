@@ -55,8 +55,9 @@ I am involved in several ongoing IFS surveys designed to provide new insights in
 {% include figure.liquid
    loading="eager"
    path="assets/img/hector.png"
-   class="img-fluid rounded float-start me-3"
-   width="40%"
+   class="img-fluid rounded d-block mx-auto text-center"
+   width="100%"
+   max-width="600px"
    alt="Euclid telescope"
    caption=caption
 %}
