@@ -50,6 +50,10 @@ I am involved in several ongoing IFS surveys designed to provide new insights in
 - [WEAVE](https://weave-project.atlassian.net/wiki/spaces/WEAVE/overview)
 - [Hector](https://hector.survey.org.au)
 
+{% assign caption="Happy Pablo after finishing the manual configuration of a Hector plate." %}
+
+{% include figure.liquid loading="eager" path="assets/img/hector.png" class="img-fluid rounded z-depth-1" width="100%" max-width="600px" alt="Euclid telescope" caption=caption %}
+
 I am the main **developer** of [PyKOALA](https://pykoala.readthedocs.io/en/latest/index.html), a python library for IFS data reduction. PyKOALA is the primary tool used for data from the [KOALA](https://aat.anu.edu.au/science/instruments/current/koala/overview) instrument on the Anglo-Australian Telescope.
 
 
